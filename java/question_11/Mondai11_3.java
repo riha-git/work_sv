@@ -51,15 +51,11 @@ public class Mondai11_3
 	// 不正値チェック処理
 	static public int errorChk(int chk)
 	{		
-		int chk_result;
+		int chk_result = 0;
 		if((chk < 0) || (chk > 24))
 		{
 			System.out.println("不正値");
 			chk_result = -1;	
-		}
-		else
-		{
-			chk_result = 0;
 		}
 		return(chk_result);
 	}

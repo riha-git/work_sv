@@ -12,7 +12,7 @@ public class Mondai8_2
 		long result3 = (long) hensu1 * hensu2;
 		// 除算
 		int result4 = hensu1 / hensu2;
-		// 剰算
+		// 剰余
 		int result5 = hensu1 % hensu2;
 		
 		System.out.println(result1);

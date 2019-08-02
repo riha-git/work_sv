@@ -14,7 +14,7 @@ public class Mondai8_1
 		arr[2] = x * y;
 		// 除算
 		arr[3] = x / y;
-		// 剰算
+		// 剰余
 		arr[4] = x % y;
 		
 		for(int result: arr)
