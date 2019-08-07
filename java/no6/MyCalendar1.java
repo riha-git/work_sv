@@ -1,6 +1,6 @@
 import java.util.Calendar;
 
-public class MyCalender1
+public class MyCalendar1
 {
 	public static void main(String[] args)
 	{
