@@ -1,4 +1,5 @@
 package Pac4_1;
+//import Pac4_1.MyClass6_1;
 
 // MyClass6_1に同じパッケージからアクセス
 public class MyClass6_2

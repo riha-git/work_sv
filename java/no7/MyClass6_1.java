@@ -6,16 +6,18 @@ public class MyClass6_1
 	// フィールド
 	protected int a;
 
-	// メソッド
-	protected int add(int x, int y)
-	{
-		return x + y;
-	}
+        protected int add(int x, int y)
+        {
+          int result = x + y;
+          return result;
+        }
 
+	// メソッド
 	protected void access()
 	{
+                int a = this.a;
 		int b = 1;
-		int c = add(this.a, b);
+		int c = add(a, b);
 		System.out.println(c);
 	}
 

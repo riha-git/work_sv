@@ -1,18 +1,17 @@
 package Pac4_2;
+import Pac4_1.MyClass6_1;
 
-// MyClass6_1に違うパッケージからアクセス
+// MyClass6_1に別のパッケージからアクセス
+// コンパイルエラー
 public class MyClass6_3
 {
-	MyClass6_1 my = new MyClass6_1();
-
 	public static void main(String[] arg)
 	{
+		MyClass6_1 my = new MyClass6_1();
+
 		// フィールドにアクセス
-		System.out.println("＜同じクラスからアクセス＞フィールドprotectedな変数:" + my.a);
+		my.a = 1;
 		// メソッドにアクセス
-		int b = add(2, 3);
-		System.out.println("＜同じクラスからアクセス＞protectedなメソッド:" + my.b);
+		my.access();
 	}
 }
-	
-
