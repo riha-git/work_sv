@@ -7,6 +7,6 @@ public class MyTest4
 
         void myMsg()
         {
-                System.out.println("MyTest4のMyMsgメソッド");
+                System.out.println("MyTest4のmyMsgメソッド");
         }
 }
