@@ -3,8 +3,9 @@ public class MyInteger2
 	public static void main(String[] args)
 	{
 		// Integerクラスのインスタンスメソッド
-
+		@SuppressWarnings("deprecation")
 		Integer myI1 = new Integer(100);
+		@SuppressWarnings("deprecation")
 		Integer myI2 = new Integer(100);
 
 		// 参照型からプリミティブ型への変換
