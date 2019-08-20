@@ -8,9 +8,9 @@ public class Cat
         
         public Cat()
         {
-                this.syurui = "スコティッシュフォールド";
-                this.seibetsu = "メス";
-                this.toshi = 0;
+                syurui = "スコティッシュフォールド";
+                seibetsu = "メス";
+                toshi = 0;
         }
 
         public Cat(String syurui, String seibetsu, int toshi)
@@ -22,16 +22,16 @@ public class Cat
 
         String getSyurui()
         {
-                return this.syurui;
+                return syurui;
         }
 
         String getSeibetsu()
         {
-                return this.syurui;
+                return seibetsu;
         }
 
         int getToshi()
         {
-                return this.toshi;
+                return toshi;
         }
 }
