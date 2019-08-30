@@ -1,5 +1,0 @@
-パッケージ化のコンパイル方法
-javac -encoding UTF-8 -d . クラス名.java
-
-実行方法
-java パッケージ名.クラス名
