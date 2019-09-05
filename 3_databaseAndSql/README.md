@@ -38,7 +38,7 @@ vagrant up
 vagrant halt
 
 ### DB起動/停止手順
-1. VM起動後sshにssh接続（Tera Termなど）
+1. VM起動後sshにssh接続（Tera Termなど）  
 user: root  
 pw: vagrant  
 
@@ -46,7 +46,7 @@ pw: vagrant
 systemctl start mariadb
 
 3. DBにログイン  
-mysql -u root -p
+mysql -u root -p  
 pw: なし（Enter）
 
 4. DB選択  
