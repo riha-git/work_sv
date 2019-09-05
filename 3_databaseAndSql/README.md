@@ -38,25 +38,24 @@ vagrant up
 vagrant halt
 
 ### DB起動/停止手順
-1. VM起動後sshにssh接続（Tera Termなど）  
-user: root  
-pw: vagrant  
-
-※ネットワーク確認
+1. ネットワーク確認  
 Virtualboxで起動中のネットワークを確認   
 ネットワーク > 高度「ポートフォワーディングルール」  
 ホストip:ホストポート, ゲストポート 
 
+2. VM起動後sshにssh接続（Tera Termなど）  
+user: root  
+pw: vagrant  
 
-2. サーバー起動  
+3. サーバー起動  
 systemctl start mariadb
 
-3. DBにログイン  
+4. DBにログイン  
 mysql -u root -p  
 pw: なし（Enter）
 
-4. DB選択  
+5. DB選択  
 use work;
 
-5. サーバー停止  
+6. サーバー停止  
 systemctl stop mariadb
