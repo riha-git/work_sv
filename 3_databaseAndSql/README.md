@@ -53,4 +53,4 @@ pw: なし（Enter）
 use work;
 
 5. サーバー停止  
-systemctl start mariadb
+systemctl stop mariadb
