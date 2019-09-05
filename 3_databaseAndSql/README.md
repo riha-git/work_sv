@@ -21,7 +21,7 @@ member
 
 ### install方法  
 1. ダウンロードしたboxファイルのディレクトリに移動し、下記コマンドを実行  
-vagrant box add <任意のbox名> "dbVM.box"  
+vagrant box add <任意のbox名> dbVM.box  
 
 2. 下記のコマンドで、登録したboxが表示されることを確認  
 vagrant box list  
