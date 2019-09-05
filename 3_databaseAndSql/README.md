@@ -42,6 +42,12 @@ vagrant halt
 user: root  
 pw: vagrant  
 
+※ネットワーク確認
+Virtualboxで起動中のネットワークを確認   
+ネットワーク > 高度「ポートフォワーディングルール」  
+ホストip:ホストポート, ゲストポート 
+
+
 2. サーバー起動  
 systemctl start mariadb
 
