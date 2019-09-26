@@ -34,3 +34,6 @@ mybatis-config.xml
   ・・・
 　  <setting name="logImpl" value="STDOUT_LOGGING"/><!-- SQL文をコンソールで表示 -->  
 ```
+
+その他  
+http://3ka2w.blog.fc2.com/blog-entry-42.html
