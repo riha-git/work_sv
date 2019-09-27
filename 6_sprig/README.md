@@ -20,9 +20,14 @@ port=3306
 https://doruby.jp/users/goi/entries/%E4%BB%AE%E6%83%B3%E7%92%B0%E5%A2%83%E3%81%AEMySQL%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E8%A8%AD%E5%AE%9A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
 
 上記の設定などを入れたboxイメージ  
+host: 127.0.0.1:2222  
+port: 22  
 centos login: root/vagrant  
 db logion: root/なし  
-https://drive.google.com/file/d/1IF0Ml0E17yflULGonJmc5yYvQxEYmeL4/view?usp=sharing
+https://drive.google.com/file/d/1IF0Ml0E17yflULGonJmc5yYvQxEYmeL4/view?usp=sharing  
+
+DB起動  
+systemctl start mariadb  
 
 ・spring側設定  
 
